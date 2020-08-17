@@ -1,0 +1,63 @@
+*{
+margin:0;
+padding:0;
+font-family: Century Gothic;
+}
+header{
+background:url("bgim.jpg");
+height:100vh;
+background-size:cover;
+background-position:center;
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:25px;
+margin-right:25px;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color:#fff;
+padding:5px 20px;
+margin: 5px;
+border: 1px solid #fff;
+}
+ul li a:hover{
+background:#fff;
+color:#333;
+}
+.logo img{
+margin-top:30px;
+margin-left:30px;
+float:left;
+width:100px;
+height:auto;
+border: 1px solid #fff;
+background:#fff;
+}
+.mlk{
+position:absolute;
+width:600px;
+margin:20% 30%;
+text-align:center;
+color:#fff;
+text-transform: uppercase;
+font-size: 30px;
+}
+.mlk a{
+border: 1px solid #fff;
+border-radius :5px;
+padding: 10px 25px;
+text-decoration:none;
+font-size:17px;
+margin-top:20px;
+display: inline-block;
+color:#fff;
+}
+.mlk a:hover{
+background:#fff;
+color:#000;
+}
